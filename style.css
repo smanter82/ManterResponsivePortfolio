@@ -1,3 +1,7 @@
 body {
     background-image:url("./assets/images/tree_picture.png")
 }
+
+.container {
+    margin-top: 50px;
+}
