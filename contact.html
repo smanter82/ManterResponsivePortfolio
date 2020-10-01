@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
+    <!-- Bootstrap CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!-- JS, Popper.js, and jQuery -->
+    <!-- BootstrapJS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- My stylesheet-->
+    <link rel="stylesheet" href="style.css">
     <title>SManterContact</title>
 </head>
 <body>
@@ -31,38 +32,31 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
       <div class="container-sm">
-        <div class="card" style="width: 25rem;">
-          <!--Change image to something else later-->
-          <img src=".\profile_pic.jpg" class="card-img-top" alt="Photo of Sarah">
-          <div class="card-body">
-            <h5 class="card-title">Contact Information</h5>
-            <p class="card-text">If you have any questions or would like to get a hold of me, please contact me using the information below.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"></li>
-              <div class="card">
-                <div class="card-body">
-                  Sarah Manter
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 25rem;">
+              <!--Image taken from https://clipartix.com/communication-clipart-image-43506/-->
+              <img src="./Communication-clipart-free-images-3.jpg" class="card-img-top" alt="Image of two people whose brains are communicating ideas">
+              <form>
+                <div class="form-group">
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                  </div>
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                  </svg>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-              </div>
-            <li class="list-group-item"></li>
-              <div class="card">
-                <div class="card-body">
-                  Email:  <a rel="email" href>sarahmanter@gmail.com</a>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type a brief message here." rows="3"></textarea>
                 </div>
-              </div>
-            <li class="list-group-item"></li>
-              <div class="card">
-                <div class="card-body">
-                  Phone Number:  603-496-4846
-                </div>
-              </div>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+              </form>
+            </div>
           </div>
         </div>
       </div>

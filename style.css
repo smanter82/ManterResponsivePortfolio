@@ -1,7 +1,8 @@
 body {
-    background-image:url("./assets/images/tree_picture.png")
+    background-image:url("./tree_picture.png")
 }
 
 .container {
     margin-top: 50px;
+    padding: 50px;
 }
