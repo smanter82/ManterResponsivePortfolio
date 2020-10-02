@@ -1,3 +1,7 @@
-body {
+.backgroundPhoto {
     background-image:url("./tree_picture.png")
+}
+
+.otherBackground {
+    background-image:url("./tree_picture2.png")
 }
