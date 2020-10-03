@@ -91,5 +91,7 @@ You are required to submit the following:
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
+Some code done in collaboration with 5 PM Bootcamp study group classmates: https://github.com/arensalmela, https://github.com/dmaysteinman, https://github.com/EddiePhi, https://github.com/ReindeerCode, James, Ethan Wager
+
 Deployed site:  https://smanter82.github.io/ManterResponsivePortfolio/
 
