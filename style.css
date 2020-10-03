@@ -1,7 +1,8 @@
+/*Added my own photo as backgrounds on index and contact files*/
 .backgroundPhoto {
     background-image:url("./tree_picture.png")
 }
-
+/*Vertical photo worked better for profile page*/
 .otherBackground {
     background-image:url("./tree_picture2.png")
 }
