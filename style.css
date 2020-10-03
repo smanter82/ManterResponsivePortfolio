@@ -9,5 +9,5 @@
 
 /*Move Navbar links to the right of the page.*/
 .linksRight {
-    justify-content: flex-;
+    justify-content: flex-end;
 }
