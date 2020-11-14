@@ -12,7 +12,7 @@ Deployed Portfolio Site:  https://smanter82.github.io/ManterResponsivePortfolio/
 
 LinkedIn Profile:  https://www.linkedin.com/in/sarah-manter-40881877/
 
-Resume:  ./Assets/Sarah_Manter_Resume.pdf
+Resume:  [Resume PDF](./Assets/Sarah_Manter_Resume.pdf)
 
 Some code on my portfolio was done in collaboration with my Bootcamp study group classmates: https://github.com/arensalmela, https://github.com/dmaysteinman, https://github.com/EddiePhi, https://github.com/ReindeerCode, James, Ethan Wager
 
