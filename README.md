@@ -9,6 +9,7 @@ So far, I have learned to work with HTML, CSS, JavaScript, and JQuery, and I am 
 We are currently learning to work with Node.js, and I am looking forward to learning more about the back-end of web development.
 
 Deployed Portfolio Site:  https://smanter82.github.io/ManterResponsivePortfolio/
+
 LinkedIn Profile:  https://www.linkedin.com/in/sarah-manter-40881877/
 
 Some code on my portfolio was done in collaboration with my Bootcamp study group classmates: https://github.com/arensalmela, https://github.com/dmaysteinman, https://github.com/EddiePhi, https://github.com/ReindeerCode, James, Ethan Wager
