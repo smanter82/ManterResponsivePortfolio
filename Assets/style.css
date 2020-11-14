@@ -12,6 +12,10 @@
     justify-content: flex-end;
 }
 
+.padText {
+    padding: 25px
+}
+
 /* .quizShots {
     border: 5 px, brown;
 } */
