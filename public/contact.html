@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <!--Animate CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- My stylesheet-->
     <link rel="stylesheet" href="../public/Assets/css/contact.css">
     <title>SManterContact</title>
@@ -33,37 +37,36 @@
     <main class="container my-5">
       <div class="row">
         <div class="col-sm-12 mx-auto">
-          <div class="card p-3">
+          <div class="card animate__animated animate__slideInDown p-3">
             <form>
               <h1 class="text-center">Contact Me</h1>
               <h2 class="text-center">Please contact me at any time. I'd love to chat!</h2>
               <br>
               <div class= "row justify-content-center">
-                <p class="padText">Email: sarahmanter@gmail.com       </p>
+                <p class="padText">Email: sarahmanter@gmail.com</p>
                 <p class="padText">Phone: 603-496-4846</p>
               </div>
               <div class="d-flex justify-content-around">
-                <a class="btn btn-primary justify-content-between" href="https://www.linkedin.com/in/sarah-manter-40881877/" target="blank" role="button">Here is my LinkedIn Profile.</a>
-                <a class="btn btn-primary justify-content-between" href="./Assets/Sarah_Manter_Resume.pdf" target="blank">My Resume</a>
-                <a class="btn btn-primary justify-content-between" href="https://github.com/smanter82" target="blank" role="button">Here is my GitHub Repository.</a>
+                <a class="btn justify-content-between" href="https://www.linkedin.com/in/sarah-manter-40881877/" target="blank" role="button">Here is my LinkedIn Profile.</a>
+                <a class="btn justify-content-between" href="./Assets/Sarah_Manter_Resume.pdf" target="blank">My Resume</a>
+                <a class="btn justify-content-between" href="https://github.com/smanter82" target="blank" role="button">Here is my GitHub Repository.</a>
               </div>
-                <!-- <img src="./Communication-clipart-free-images-3.jpg" class="card-img-top" alt="Image of two people whose brains are communicating ideas"> -->
               <div class="form-group justify-content-center">
                 <div class="form-group">
-                  <label for="formGroupExampleInput">Name</label>
+                  <label class= "orangeText" for="formGroupExampleInput">Name</label>
                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                 </div>
-                <label for="exampleFormControlInput1">Email address</label>
+                <label class= "orangeText" for="exampleFormControlInput1">Email address</label>
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                 </svg>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
+                <label class= "orangeText" for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type a brief message here." rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              <button type="submit" class="btn mb-2">Submit</button>
             </form>
           </div>
         </div>
