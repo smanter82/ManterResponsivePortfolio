@@ -39,4 +39,4 @@ Contact me through GitHub or by email.
 
 ## Resume
 
-Resume: [PDF](./public/Assets/Sarah_Manter_Resume.pdf)
+Resume: [PDF](/Assets/Sarah_Manter_Resume.pdf)
