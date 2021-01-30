@@ -1,11 +1,11 @@
 /*Added my own photo as backgrounds on index and contact files*/
 .backgroundPhoto {
-  background-image: url("./Images/tree_picture.png");
+  background-image: url("../Images/tree_picture.png");
 }
 /*Vertical photo worked better for profile page*/
-.otherBackground {
+/* .otherBackground {
   background-image: url("./Images/tree_picture2.png");
-}
+} */
 
 /*Move Navbar links to the right of the page.*/
 .linksRight {
@@ -14,4 +14,8 @@
 
 .padText {
   padding: 25px;
+}
+
+.backgroundOrange {
+  background-color: rgb(145, 61, 13);
 }

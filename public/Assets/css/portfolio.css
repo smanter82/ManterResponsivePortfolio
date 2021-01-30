@@ -1,10 +1,18 @@
 /*Added my own photo as backgrounds on index and contact files*/
-.backgroundPhoto {
-  background-image: url("./Images/tree_picture.png");
-}
-/*Vertical photo worked better for profile page*/
+
+/* .backgroundPhoto {
+  background-image: url("/public/Assets/Images/tree_picture.png");
+} */
+
+/*Vertical photo for profile page*/
 .otherBackground {
-  background-image: url("./Images/tree_picture2.png");
+  /* background-color: purple; */
+  background-image: url("../Images/tree_picture2.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /*Move Navbar links to the right of the page.*/
