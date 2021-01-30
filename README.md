@@ -19,11 +19,11 @@ I am currently taking a Coding Bootcamp Course in full-stack web development thr
 
 ## Screenshots
 
-![HomePage](./public/Assets/Images/Screenshots/homePageScreenshot.png)
+![HomePage](./Assets/Images/Screenshots/homePageScreenshot.png)
 
-![Portfolio](./public/Assets/Images/Screenshots/portfolioScreenshot.png)
+![Portfolio](./Assets/Images/Screenshots/portfolioScreenshot.png)
 
-![Contact](./public/Assets/Images/Screenshots/contactScreenshot.png)
+![Contact](./Assets/Images/Screenshots/contactScreenshot.png)
 
 ## Technologies
 
