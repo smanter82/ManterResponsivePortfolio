@@ -1,21 +1,17 @@
 /*Added my own photo as backgrounds on index and contact files*/
 .backgroundPhoto {
-    background-image:url("./Images/tree_picture.png")
+  background-image: url("./Images/tree_picture.png");
 }
 /*Vertical photo worked better for profile page*/
 .otherBackground {
-    background-image:url("./Images/tree_picture2.png")
+  background-image: url("./Images/tree_picture2.png");
 }
 
 /*Move Navbar links to the right of the page.*/
 .linksRight {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .padText {
-    padding: 25px
+  padding: 25px;
 }
-
-/* .quizShots {
-    border: 5 px, brown;
-} */
